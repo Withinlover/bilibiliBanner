@@ -1,16 +1,13 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <fall-banner></fall-banner>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import FallBanner from './components/FallBanner.vue'
 
 export default {
+  components: { FallBanner },
   name: 'App',
-  components: {
-    HelloWorld
-  }
 }
 </script>
 
